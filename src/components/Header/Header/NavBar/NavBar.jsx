@@ -28,7 +28,7 @@ const NavBar = () => {
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns=""
-              className="h-5 w-5"
+              className="h-8 w-8"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -43,14 +43,14 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm -left-40 bg-transparent dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
+            className="text-xl font-semibold flex flex-col gap-4 -left-28  dropdown-content mt-5 z-[1] p-2 shadow  rounded-box w-40"
           >
             {links}
           </ul>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex ">
-        <ul className="menu menu-horizontal px-1 bg-transparent">{links}</ul>
+        <ul className="flex gap-5 text-xl font-semibold px-1">{links}</ul>
       </div>
     
     </div>
