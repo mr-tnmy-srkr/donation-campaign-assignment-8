@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { RxCross1 } from "react-icons/rx";
 
 const NavBar = () => {
+  const [isShow,setIsShow] = useState(true)
   const links = (
     <>
       <li>
@@ -26,7 +29,9 @@ const NavBar = () => {
 
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
-            <svg
+            <div onClick={()=>setIsShow(!isShow)}>
+         {
+          isShow ? ( <svg 
               xmlns=""
               className="h-8 w-8"
               fill="none"
@@ -39,14 +44,18 @@ const NavBar = () => {
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />
-            </svg>
+            </svg>):(<RxCross1 className="text-3xl font-bold"></RxCross1>)
+         }
+            </div>
           </label>
-          <ul
+          {
+            !isShow?(<ul
             tabIndex={0}
             className="text-xl font-semibold flex flex-col gap-4 -left-28  dropdown-content mt-5 z-[1] p-2 shadow  rounded-box w-40"
           >
             {links}
-          </ul>
+          </ul>):("")
+          }
         </div>
       </div>
       <div className="navbar-center hidden lg:flex ">
