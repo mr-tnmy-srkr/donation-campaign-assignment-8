@@ -30,7 +30,7 @@
         "description": "Clothing is more than just a covering for the body; it is a form of expression, cultural representation, and practical necessity. Fashion trends, styles, and preferences vary across individuals, regions, cultures, and historical periods, reflecting social,economic,technological influences.Historically, clothing served as protection against environmental elements and a means to maintain modesty. Over time, it has evolved into a means of self-expression, reflecting personal taste, cultural heritage, societal norms.",
         "price": 310,
         "category_bg": "#79C23F33",
-        "card_bg": "79C23F26",
+        "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F"
       },
       {
@@ -40,8 +40,8 @@
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
-        "category_bg": "F8714733",
-        "card_bg": "F8714726",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
         "text_button_bg": "#F87147"
       },
       {
@@ -51,8 +51,8 @@
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
-        "category_bg": "F8714733",
-        "card_bg": "F8714726",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
         "text_button_bg": "#F87147"
       },
       {
@@ -63,7 +63,7 @@
         "description": "Clothing is more than just a covering for the body; it is a form of expression, cultural representation, and practical necessity. Fashion trends, styles, and preferences vary across individuals, regions, cultures, and historical periods, reflecting social,economic,technological influences.Historically, clothing served as protection against environmental elements and a means to maintain modesty. Over time, it has evolved into a means of self-expression, reflecting personal taste, cultural heritage, societal norms.",
         "price": 310,
         "category_bg": "#79C23F33",
-        "card_bg": "79C23F26",
+        "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F"
       },
       {
@@ -118,7 +118,7 @@
         "description": "Clothing is more than just a covering for the body; it is a form of expression, cultural representation, and practical necessity. Fashion trends, styles, and preferences vary across individuals, regions, cultures, and historical periods, reflecting social,economic,technological influences.Historically, clothing served as protection against environmental elements and a means to maintain modesty. Over time, it has evolved into a means of self-expression, reflecting personal taste, cultural heritage, societal norms.",
         "price": 310,
         "category_bg": "#79C23F33",
-        "card_bg": "79C23F26",
+        "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F"
       },
       {
@@ -128,8 +128,8 @@
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
-        "category_bg": "F8714733",
-        "card_bg": "F8714726",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
         "text_button_bg": "#F87147"
       }
     ]

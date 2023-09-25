@@ -1,9 +1,9 @@
-import NavBar from "../NavBar/NavBar";
+// import NavBar from "../NavBar/NavBar";
 import "./Banner.css";
 const Banner = () => {
   return (
     <div className="">
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
 
       <div >
         <h2
@@ -11,9 +11,13 @@ const Banner = () => {
             bg-white"
         >
           <div
-            className="hero min-h-screen"
+            className="hero h-[500px] w-full"
             style={{
-              backgroundImage: "url(resources/bgi.jpg)",
+              backgroundImage: "url(resources/bgi.png)",
+              backgroundRepeat:"no-repeat",
+              backgroundSize:"cover",
+              backgroundPosition:"center",
+
             }}
           >
             <div className="hero-overlay opacity-90 bg-white"></div>
