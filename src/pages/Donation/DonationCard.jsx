@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DonationCard = ({ element }) => {
   const {
     id,
@@ -10,24 +12,21 @@ const DonationCard = ({ element }) => {
     card_bg,
     text_button_bg,
   } = element || {};
-//   console.log(element);
-
-
+  //   console.log(element);
 
   const cat_bgc = {
     backgroundColor: `${category_bg}`,
-    color:`${text_button_bg}`
+    color: `${text_button_bg}`,
   };
-const price_text={
-    color:`${text_button_bg}`
-};
-const btn_bgc={
-    backgroundColor:`${text_button_bg}`
-};
-const card_bgc = {
+  const price_text = {
+    color: `${text_button_bg}`,
+  };
+  const btn_bgc = {
+    backgroundColor: `${text_button_bg}`,
+  };
+  const card_bgc = {
     backgroundColor: `${card_bg}`,
   };
-
 
   return (
     <div>
@@ -43,11 +42,18 @@ const card_bgc = {
             {category}
           </p>
           <h2 className="card-title">{title}</h2>
-          <p style={price_text} className="text-lg font-semibold">${price}.00</p>
-       
-       
-            <button style={btn_bgc} className="btn btn-primary border-0 max-w-max px-4 capitalize py-0 text-white">View Details</button>
-     
+          <p style={price_text} className="text-lg font-semibold">
+            ${price}.00
+          </p>
+
+          <Link to={`/donation_details/${id}`}>
+            <button
+              style={btn_bgc}
+              className="btn btn-primary border-0 max-w-max px-4 capitalize py-0 text-white"
+            >
+              View Details
+            </button>
+          </Link>
         </div>
       </div>
     </div>
