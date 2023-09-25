@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { RxCross1 } from "react-icons/rx";
+import img from "../../../assets/Logo.png"
 
 const NavBar = () => {
   const [isShow,setIsShow] = useState(true)
@@ -23,7 +24,7 @@ const NavBar = () => {
   return (
     <div className="navbar bg-transparent px-0">
       <Link to="/" className="text-4xl font-semibold  w-full">
-        <img src="resources/Logo.png" alt="" />
+        <img src={img} alt="" />
       </Link>
       <div className="navbar-start  w-full flex justify-end">
 
