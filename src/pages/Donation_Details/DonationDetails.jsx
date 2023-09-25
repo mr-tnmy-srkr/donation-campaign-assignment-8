@@ -5,16 +5,16 @@ import DonationDetailsCard from "./DonationDetailsCard";
 
 const DonationDetails = () => {
 const [myData,setMyData] = useState([])
-    const{category} = useParams();
-    console.log(category);
+    const{id} = useParams();
+    console.log(id);
     const {products} = useLoaderData();
     // console.log(products);
  
 useEffect(()=>{
-    const findCategoryData = products.find(item =>item.category === category)
+    const findCategoryData = products.find(item =>item.id === id)
     // console.log(findCategoryData);
     setMyData(findCategoryData);
-},[category, products])
+},[id, products])
 // console.log(myData);
 
     return (

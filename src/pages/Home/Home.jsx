@@ -1,11 +1,12 @@
+import Donations from "../../components/Donations/Donations";
 import Banner from "../../components/Header/Banner/Banner";
-import Phones from "../../components/Donations/Donations";
+
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <Phones></Phones>
+      <Donations></Donations>
     </div>
   );
 };
