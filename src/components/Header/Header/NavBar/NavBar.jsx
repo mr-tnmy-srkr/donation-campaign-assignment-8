@@ -21,7 +21,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-transparent">
+    <div className="navbar bg-transparent px-0">
       <Link to="/" className="text-4xl font-semibold  w-full">
         <img src="resources/Logo.png" alt="" />
       </Link>

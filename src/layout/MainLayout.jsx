@@ -3,7 +3,7 @@ import Header from "../components/Header/Header/Header";
 
 const MainLayout = () => {
   return (
-    <div className="container mx-auto w-[95%]">
+    <div className="">
       <Header></Header>
       <Outlet></Outlet>
     </div>

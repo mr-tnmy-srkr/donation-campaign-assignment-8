@@ -1,5 +1,7 @@
 // import React from 'react';
 
+import { Link, } from "react-router-dom";
+
 const PhonesCard = ({ phone }) => {
   const {
     id,
@@ -13,12 +15,14 @@ const PhonesCard = ({ phone }) => {
     text_button_bg,
   } = phone || {};
 //   console.log(phone);
-  console.log(text_button_bg);
+  // console.log(text_button_bg);
+
   return (
   <div>
+      <Link to={`/donation_details/${category}`}>
       <div className="cursor-pointer">
       <div className="">
-        <div className="rounded-lg"><img src={image} alt="" /></div>
+        <div className="rounded-lg"><img className="w-full" src={image} alt="" /></div>
         <div className={`bg-[${card_bg}] rounded-b-lg bg-red-400`}>
            <div className="pt-4 ml-3">
            <p className={`px-2 py-1 bg-slate-400 max-w-max rounded-lg font-medium text-sm`}>{category}</p>
@@ -27,6 +31,7 @@ const PhonesCard = ({ phone }) => {
         </div>
       </div>
     </div>
+      </Link>
   </div>
   );
 };
