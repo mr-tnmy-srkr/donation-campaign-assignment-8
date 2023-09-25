@@ -16,12 +16,13 @@ const Donation = () => {
     setTotalDonated(donatedData);
   }, [products]);
 
-  return <div>
- {
-            totalDonated?.map(element => <DonationCard key={element.id} element={element}></DonationCard>)
-          }
-
-  </div>;
+  return (
+    <div className="grid lg:grid-cols-2 gap-5 container w-[95%] mx-auto my-6">
+      {totalDonated?.map((element) => (
+        <DonationCard key={element.id} element={element}></DonationCard>
+      ))}
+    </div>
+  );
 };
 
 export default Donation;

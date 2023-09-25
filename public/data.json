@@ -3,7 +3,7 @@
       {
         "id": "1",
         "image": "https://i.ibb.co/HF7VbgH/Health.png",
-        "title": "Clean water for children",
+        "title": "Purified water",
         "category": "Health",
         "description": "Health is a multifaceted state encompassing physical, mental, and social well-being. It is not merely the absence of disease but a dynamic equilibrium that allows individuals to thrive in their daily lives. Physical health involves a well-functioning body, supported by a balanced diet, regular exercise, adequate sleep, and proper hydration.Mental health is equally vital, encompassing emotional stability, resilience, and cognitive clarity. It involves managing stress, fostering positive relationships,seeking help.",
         "price": 290,
@@ -36,7 +36,7 @@
       {
         "id": "4",
         "image": "https://i.ibb.co/HdkpBCL/Food.png",
-        "title": "Better Food for Everyone",
+        "title": "Food for Everyone",
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
@@ -47,7 +47,7 @@
       {
         "id": "5",
         "image": "https://i.ibb.co/HdkpBCL/Food.png",
-        "title": "Better Food for Everyone",
+        "title": "Food for Everyone",
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
@@ -80,7 +80,7 @@
       {
         "id": "8",
         "image": "https://i.ibb.co/HF7VbgH/Health.png",
-        "title": "Clean water for children",
+        "title": "Purified water",
         "category": "Health",
         "description": "Health is a multifaceted state encompassing physical, mental, and social well-being. It is not merely the absence of disease but a dynamic equilibrium that allows individuals to thrive in their daily lives. Physical health involves a well-functioning body, supported by a balanced diet, regular exercise, adequate sleep, and proper hydration.Mental health is equally vital, encompassing emotional stability, resilience, and cognitive clarity. It involves managing stress, fostering positive relationships,seeking help.",
         "price": 290,
@@ -91,7 +91,7 @@
       {
         "id": "9",
         "image": "https://i.ibb.co/HF7VbgH/Health.png",
-        "title": "Clean water for children",
+        "title": "Purified water",
         "category": "Health",
         "description": "Health is a multifaceted state encompassing physical, mental, and social well-being. It is not merely the absence of disease but a dynamic equilibrium that allows individuals to thrive in their daily lives. Physical health involves a well-functioning body, supported by a balanced diet, regular exercise, adequate sleep, and proper hydration.Mental health is equally vital, encompassing emotional stability, resilience, and cognitive clarity. It involves managing stress, fostering positive relationships,seeking help.",
         "price": 290,
@@ -124,7 +124,7 @@
       {
         "id": "12",
         "image": "https://i.ibb.co/HdkpBCL/Food.png",
-        "title": "Better Food for Everyone",
+        "title": "Food for Everyone",
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
