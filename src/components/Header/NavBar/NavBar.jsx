@@ -36,9 +36,9 @@ const NavBar = () => {
       </Link>
       <div className="navbar-start  w-full flex justify-end">
 
-        <div className="dropdown">
+        <div className="dropdown" onClick={()=>setIsShow(!isShow)}>
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
-            <div onClick={()=>setIsShow(!isShow)}>
+            <div>
          {
           isShow ? ( <svg 
               xmlns=""
