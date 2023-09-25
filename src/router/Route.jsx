@@ -3,7 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home";
 import Statistics from "../pages/Statistics/Statistics";
 import Donation from "../pages/Donation/Donation";
-import DonationDetails from "../pages/DonationDetails/DonationDetails";
+import DonationDetails from "../pages/Donation_Details/DonationDetails";
 
 const router = createBrowserRouter([
   {
