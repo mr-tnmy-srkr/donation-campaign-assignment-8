@@ -8,19 +8,27 @@ const NavBar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "underline text-[#FF444A]" : ""
+  }>Home</NavLink>
       </li>
      
       <li>
-        <NavLink to="/donation">Donation</NavLink>
+        <NavLink to="/donation" className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "underline text-[#FF444A]" : ""
+  }>Donation</NavLink>
       </li>
     
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <NavLink to="/statistics" className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "underline text-[#FF444A]" : ""
+  }>Statistics</NavLink>
       </li>
     </>
   );
 
+
+  
   return (
     <div className="navbar bg-transparent px-0">
       <Link to="/" className="text-4xl font-semibold  w-full">
@@ -52,7 +60,7 @@ const NavBar = () => {
           {
             !isShow?(<ul
             tabIndex={0}
-            className="text-xl font-semibold flex flex-col gap-4 -left-28  dropdown-content mt-5 z-[1] p-2 shadow  rounded-box w-40"
+            className="text-xl font-semibold flex flex-col gap-4 -left-28  dropdown-content mt-5 z-[1] p-2 shadow  rounded-box w-40 bg-slate-300"
           >
             {links}
           </ul>):("")

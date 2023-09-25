@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import {
   getStoredDonatedData,
   saveDonatedData,
@@ -12,11 +12,8 @@ const DonationDetailsCard = ({ myData }) => {
     id,
     image,
     title,
-    category,
     description,
     price,
-    category_bg,
-    card_bg,
     text_button_bg,
   } = myData || {};
   console.log(title);
@@ -77,10 +74,10 @@ const DonationDetailsCard = ({ myData }) => {
         <h1 className="text-4xl font-bold mb-2">{title}</h1>
         <p className="text-[#BBBBB2] text-lg leading-7">{description}</p>
       </div>
-
-     >
     </div>
   );
 };
-
+DonationDetailsCard.propTypes = {
+  myData:PropTypes.object,
+}
 export default DonationDetailsCard;
