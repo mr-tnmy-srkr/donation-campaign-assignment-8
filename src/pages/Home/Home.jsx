@@ -1,14 +1,13 @@
-import Banner from "../../components/Header/Header/Banner/Banner";
-import Phones from "../../components/Header/Header/Phones/Phones.jsx/Phones";
-
+import Banner from "../../components/Header/Banner/Banner";
+import Phones from "../../components/Donations/Donations";
 
 const Home = () => {
-    return (
-        <div>
-          <Banner></Banner>
-          <Phones></Phones>
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+      <Phones></Phones>
+    </div>
+  );
 };
 
 export default Home;

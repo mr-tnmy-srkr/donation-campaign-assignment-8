@@ -23,7 +23,7 @@ const PhonesCard = ({ phone }) => {
       <div className="cursor-pointer">
       <div className="">
         <div className="rounded-lg"><img className="w-full" src={image} alt="" /></div>
-        <div className={`bg-[${card_bg}] rounded-b-lg bg-red-400`}>
+        <div className={`bg-[${card_bg}] rounded-b-lg `}>
            <div className="pt-4 ml-3">
            <p className={`px-2 py-1 bg-slate-400 max-w-max rounded-lg font-medium text-sm`}>{category}</p>
            </div>
