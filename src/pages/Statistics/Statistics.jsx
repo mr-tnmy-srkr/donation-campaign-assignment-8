@@ -5,7 +5,6 @@ import {
   Pie,
   PieChart,
   ResponsiveContainer,
-  Tooltip,
 } from "recharts";
 import { getStoredDonatedData } from "../../utils/localStorage.js";
 
@@ -19,7 +18,6 @@ const renderCustomizedLabel = ({
   innerRadius,
   outerRadius,
   percent,
-  index,
 }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.3;
   const labelRadius = radius * 1.2; // Adjust constant for position

@@ -6,7 +6,7 @@ const MainLayout = () => {
   let location = useLocation();
 
   React.useEffect(() => {
-    console.log(location);
+    // console.log(location);
     if (location.pathname === "/") {
       document.title = "Campaign Home";
     } else {
@@ -15,7 +15,7 @@ const MainLayout = () => {
       const slicedPath = location.pathname.slice(1);
       const capitalizedPath =
       slicedPath.charAt(0).toUpperCase() + slicedPath.slice(1);
-      console.log(capitalizedPath);
+      // console.log(capitalizedPath);
       document.title = `Campaign ${capitalizedPath}`;
     }
 

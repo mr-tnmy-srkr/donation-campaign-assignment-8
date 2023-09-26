@@ -1,28 +1,7 @@
-// import NavBar from "../NavBar/NavBar";
-// import {  useState } from "react";
 import "./Banner.css";
-// import DonationsCard from "../../Donations/DonationsCard";
+import PropTypes from "prop-types";
 
-
-const Banner = ({products,handleSearch}) => {
-  
-  // const [searchText, setSearchText] = useState(['']);
-/*   const [filteredProducts, setFilteredProducts] = useState([...products]);
-  
-  const handleSearch = (e) => {
-    e.preventDefault();
-    const searchValue = e.target.search.value.toLowerCase();
-    // setSearchText(searchValue);
-    console.log(products);
-
-    const filteredData = products.filter(item =>
-      item.category.toLowerCase().includes(searchValue)
-      );
-      setFilteredProducts(filteredData);
-    //  console.log(filteredData);
-  };
-  console.log(filteredProducts); */
-
+const Banner = ({ handleSearch }) => {
   return (
     <div className="">
       {/* <NavBar></NavBar> */}
@@ -66,5 +45,7 @@ const Banner = ({products,handleSearch}) => {
     </div>
   );
 };
-
+Banner.propTypes = {
+  handleSearch: PropTypes.func.isRequired,
+};
 export default Banner;
