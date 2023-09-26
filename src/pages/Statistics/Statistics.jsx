@@ -70,7 +70,7 @@ console.log(lStorageDataLength);
 
 
 const data = [
-  { name: "Total Donation", value: 12 },
+  { name: "Total Donation", value: 12-lStorageDataLength },
   { name: "Your Donation", value:lStorageDataLength},
 ];
 
@@ -104,7 +104,7 @@ const data = [
               />
             ))}
           </Pie>
-          <Tooltip contentStyle={{ fontSize: "18px" }} />
+          {/* <Tooltip contentStyle={{ fontSize: "18px" }} /> */}
           <Legend />
         </PieChart>
       </ResponsiveContainer>

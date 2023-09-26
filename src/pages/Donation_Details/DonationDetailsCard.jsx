@@ -16,7 +16,7 @@ const DonationDetailsCard = ({ myData }) => {
     price,
     text_button_bg,
   } = myData || {};
-  console.log(title);
+  // console.log(title);
 
   const button_style = {
     backgroundColor: `${text_button_bg}`,

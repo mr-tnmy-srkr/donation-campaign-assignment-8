@@ -39,7 +39,7 @@ const DonationsCard = ({ donation }) => {
               <div className="pt-4 ml-3">
                 <p
                   style={cat_bgc}
-                  className={`px-2 py-1 bg-slate-400 max-w-max rounded-lg font-medium text-sm`}
+                  className={`px-2 py-1 max-w-max rounded-lg font-medium text-sm`}
                 >
                   {category}
                 </p>
