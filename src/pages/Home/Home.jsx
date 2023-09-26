@@ -18,12 +18,12 @@ const Home = () => {
       item.category.toLowerCase().includes(searchValue)
     );
     // setFilteredProducts(filteredData);
-    setFilteredProducts(filteredData);
+    // setFilteredProducts(filteredData);
     setData(filteredData);
     //  console.log(filteredData);
   };
-  console.log(filteredProducts);
-  console.log(products);
+  // console.log(filteredProducts);
+  // console.log(products);
 
   return (
     <div>

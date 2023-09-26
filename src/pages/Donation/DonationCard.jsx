@@ -46,7 +46,7 @@ const DonationCard = ({ element }) => {
             ${price}.00
           </p>
 
-          <Link to={`/donation_details/${id}`}>
+          <Link to={`/donation_details/${id}`} state={title} >
             <button
               style={btn_bgc}
               className="btn btn-primary border-0 max-w-max px-4 capitalize py-0 text-white"

@@ -29,7 +29,7 @@ const DonationsCard = ({ donation }) => {
 
   return (
     <div>
-      <Link to={`/donation_details/${id}`}>
+      <Link to={`/donation_details/${id}`} state={title}>
         <div className="cursor-pointer ">
           <div className="">
             <div className="">

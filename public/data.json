@@ -14,7 +14,7 @@
       {
         "id": "2",
         "image": "https://i.ibb.co/31v9yh2/pexels-katerina-holmes-5905857.jpg",
-        "title": "Good education",
+        "title": "Good Education",
         "category": "Education",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price": 300,
@@ -69,8 +69,8 @@
       {
         "id": "7",
         "image": "https://i.ibb.co/jvvWjbz/pexels-andrea-piacquadio-3755511-1.jpg",
-        "title": "Good education",
-        "category": "Free Education",
+        "title": "Free Education",
+        "category": "Education",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price": 300,
         "category_bg": "#FF444A33",
@@ -124,7 +124,7 @@
       {
         "id": "12",
         "image": "https://i.ibb.co/wKxMjNX/pexels-julia-m-cameron-6995221.jpg",
-        "title": "Food for Everyone",
+        "title": "Food for All",
         "category": "Food",
         "description": "Food is a fundamental necessity for life, providing the body with essential nutrients, energy, and sustenance. Beyond its physiological function, food is deeply ingrained in culture, tradition, and social interactions, making it a central aspect of human life.Nutritionally, food provides vital macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins,minerals) necessary for growth and well-being. ",
         "price": 320,
