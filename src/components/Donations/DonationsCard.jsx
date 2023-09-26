@@ -30,10 +30,10 @@ const DonationsCard = ({ donation }) => {
   return (
     <div>
       <Link to={`/donation_details/${id}`}>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer ">
           <div className="">
-            <div className="rounded-lg">
-              <img className="w-full" src={image} alt="" />
+            <div className="">
+              <img className="w-full rounded-t-lg" src={image} alt="" />
             </div>
             <div style={card_bgc} className={`rounded-b-lg `}>
               <div className="pt-4 ml-3">
