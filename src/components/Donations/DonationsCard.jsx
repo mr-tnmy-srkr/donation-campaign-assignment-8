@@ -35,7 +35,7 @@ const DonationsCard = ({ donation }) => {
             <div className="">
               <img className="w-full rounded-t-lg" src={image} alt="" />
             </div>
-            <div style={card_bgc} className={`rounded-b-lg `}>
+            <div style={card_bgc} className={`rounded-b-lg`}>
               <div className="pt-4 ml-3">
                 <p
                   style={cat_bgc}

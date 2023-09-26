@@ -51,18 +51,18 @@ const DonationDetailsCard = ({ myData }) => {
   return (
     <div className="">
       <div className="">
-        <div className="h-[100vh] rounded-lg">
+        <div className="md:h-[100vh] relative rounded-lg">
           <img
-            className="w-full h-[100vh] relative rounded-lg"
+            className="w-full  md:h-[100vh] rounded-lg"
             src={image}
             alt=""
           />
-          <div className="overlay-content h-[20vh] rounded-b-lg">
+          <div className="overlay-content h-[15vh] md:h-[20vh] rounded-b-lg">
             <div className="flex items-center h-full pl-6">
               <button
                 onClick={handleAddToDonated}
                 style={button_style}
-                className=" btn max-w-max px-5 py-3 capitalize"
+                className="btn btn max-w-max px-5 py-3 capitalize"
               >
                 Donate ${price}
               </button>
@@ -71,7 +71,7 @@ const DonationDetailsCard = ({ myData }) => {
         </div>
       </div>
       <div className="my-8">
-        <h1 className="text-4xl font-bold mb-2">{title}</h1>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2">{title}</h1>
         <p className="text-[#BBBBB2] text-lg leading-7">{description}</p>
       </div>
     </div>
