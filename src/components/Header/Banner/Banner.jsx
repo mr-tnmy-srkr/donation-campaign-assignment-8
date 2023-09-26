@@ -1,27 +1,27 @@
 // import NavBar from "../NavBar/NavBar";
-import { useEffect, useState } from "react";
+// import {  useState } from "react";
 import "./Banner.css";
-import DonationsCard from "../../Donations/DonationsCard";
 // import DonationsCard from "../../Donations/DonationsCard";
-const Banner = ({products}) => {
-  
 
-  console.log(products);
-  const [searchText, setSearchText] = useState(['']);
-  const [filteredProducts, setFilteredProducts] = useState([]);
+
+const Banner = ({products,handleSearch}) => {
+  
+  // const [searchText, setSearchText] = useState(['']);
+/*   const [filteredProducts, setFilteredProducts] = useState([...products]);
   
   const handleSearch = (e) => {
     e.preventDefault();
     const searchValue = e.target.search.value.toLowerCase();
-    setSearchText(searchValue);
+    // setSearchText(searchValue);
+    console.log(products);
 
     const filteredData = products.filter(item =>
-      item.category.toLowerCase().includes(searchText)
+      item.category.toLowerCase().includes(searchValue)
       );
       setFilteredProducts(filteredData);
-     
+    //  console.log(filteredData);
   };
-  console.log(filteredProducts);
+  console.log(filteredProducts); */
 
   return (
     <div className="">
@@ -44,7 +44,7 @@ const Banner = ({products}) => {
             <div className="hero-overlay opacity-90 bg-white"></div>
             <div className="hero-content text-center text-neutral-content  w-full">
               <div className="">
-                <h1 className="mb-5 text-2xl md:text-4xl font-bold text-[#0B0B0B] drop-shadow-2xl text-shadow ">
+                <h1 className="mb-5 text-2xl md:text-4xl font-bold text-[#0B0B0B] drop-shadow-lg text-shadow ">
                   I Grow By Helping People In Need
                 </h1>
                 <form onSubmit={handleSearch}>

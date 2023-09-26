@@ -58,8 +58,8 @@
       {
         "id": "6",
         "image": "https://i.ibb.co/nCr0fcW/pexels-julia-m-cameron-6994985.jpg",
-        "title": "Used Clothing Drive",
-        "category": "Cloth Distribute",
+        "title": "Cloth Distribute",
+        "category": "Clothing",
         "description": "Clothing is more than just a covering for the body; it is a form of expression, cultural representation, and practical necessity. Fashion trends, styles, and preferences vary across individuals, regions, cultures, and historical periods, reflecting social,economic,technological influences.Historically, clothing served as protection against environmental elements and a means to maintain modesty. Over time, it has evolved into a means of self-expression, reflecting personal taste, cultural heritage, societal norms.",
         "price": 310,
         "category_bg": "#79C23F33",
@@ -113,8 +113,8 @@
       {
         "id": "11",
         "image": "https://i.ibb.co/PTWpSWP/pexels-gustavo-fring-7156182.jpg",
-        "title": "Used Clothing Drive",
-        "category": "Free Garments",
+        "title": "Free Garments",
+        "category": "Clothing",
         "description": "Clothing is more than just a covering for the body; it is a form of expression, cultural representation, and practical necessity. Fashion trends, styles, and preferences vary across individuals, regions, cultures, and historical periods, reflecting social,economic,technological influences.Historically, clothing served as protection against environmental elements and a means to maintain modesty. Over time, it has evolved into a means of self-expression, reflecting personal taste, cultural heritage, societal norms.",
         "price": 310,
         "category_bg": "#79C23F33",
