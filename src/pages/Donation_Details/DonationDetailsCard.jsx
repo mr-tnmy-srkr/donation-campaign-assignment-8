@@ -57,7 +57,7 @@ const DonationDetailsCard = ({ myData }) => {
       </div>
       <div className="my-8">
         <h1 className="text-2xl md:text-4xl font-bold mb-2">{title}</h1>
-        <p className="text-[#BBBBB2] text-lg leading-7">{description}</p>
+        <p className="text-[#0B0B0BB3] text-lg leading-7">{description}</p>
       </div>
     </div>
   );
