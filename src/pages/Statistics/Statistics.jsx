@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  Cell,
-  Legend,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-} from "recharts";
+import { Cell, Legend, Pie, PieChart, ResponsiveContainer } from "recharts";
 import { getStoredDonatedData } from "../../utils/localStorage.js";
 
 const COLORS = ["#FF444A", "#00C49F"];
@@ -32,15 +26,12 @@ const renderCustomizedLabel = ({
       fill="white"
       textAnchor={x > cx ? "start" : "end"}
       dominantBaseline="central"
-      
       fontSize={16}
     >
       {`${(percent * 100).toFixed(1)}%`}
     </text>
   );
 };
-
-
 
 const Statistics = () => {
   const [chartWidth, setChartWidth] = useState(400);
@@ -64,13 +55,12 @@ const Statistics = () => {
     // console.log(getDataFromLs);
     setLStorageDataLength(getDataFromLs.length);
   }, []);
-console.log(lStorageDataLength);
+  console.log(lStorageDataLength);
 
-
-const data = [
-  { name: "Total Donation", value: 12-lStorageDataLength },
-  { name: "Your Donation", value:lStorageDataLength},
-];
+  const data = [
+    { name: "Total Donation", value: 12 - lStorageDataLength },
+    { name: "Your Donation", value: lStorageDataLength },
+  ];
 
   return (
     <div
