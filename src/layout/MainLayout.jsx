@@ -14,14 +14,14 @@ const MainLayout = () => {
 
       const slicedPath = location.pathname.slice(1);
       const capitalizedPath =
-      slicedPath.charAt(0).toUpperCase() + slicedPath.slice(1);
+        slicedPath.charAt(0).toUpperCase() + slicedPath.slice(1);
       // console.log(capitalizedPath);
       document.title = `Campaign ${capitalizedPath}`;
     }
 
-    if(location.state){
-      document.title=`${location.state}`
-  }   
+    if (location.state) {
+      document.title = `${location.state}`;
+    }
   }, [location]);
 
   return (
